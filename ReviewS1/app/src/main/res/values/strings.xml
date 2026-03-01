@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReviewS1</string>
+    <string name="task_management">Task Management &amp; To-Do List</string>
+    <string name="task_description">This productive tool is designed to help you better manage your task project-wise conveniently!</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="hello">Hello!</string>
+    <string name="your_todays_task">Your today\'s task almost done!</string>
+    <string name="view_task">View Task</string>
+    <string name="in_progress">In Progress</string>
+    <string name="task_groups">Task Groups</string>
+    <string name="office_project">Office Project</string>
+    <string name="personal_project">Personal Project</string>
+    <string name="daily_study">Daily Study</string>
+</resources>

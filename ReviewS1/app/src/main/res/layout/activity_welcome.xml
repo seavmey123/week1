@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <!-- Illustration Area - Replace with your own image -->
+    <ImageView
+        android:id="@+id/ivWelcomeIllustration"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="Welcome Illustration"
+        android:src="@drawable/welcome_ic"
+        android:scaleType="centerInside"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_management"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvWelcomeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_description"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:lineSpacingExtra="4dp"/>
+
+    <!-- Let's Start Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLetsStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/lets_start"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/purple_500"
+        app:cornerRadius="30dp"
+        app:icon="@android:drawable/ic_media_play"
+        app:iconGravity="end"
+        app:iconTint="@color/white"
+        android:elevation="4dp"/>
+
+</LinearLayout>
